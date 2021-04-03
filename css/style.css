@@ -27,8 +27,8 @@ font-size: xx-small;
 }
 
 
-.店舗{margin-top: 300px;
-    margin-left: 100px;}
+.店頭{margin-top: 15px;
+    margin-left: 80px;}
 .こんな{margin-top: 15px;
     margin-left: 30px;}
 .お客{margin-top: 15px;
@@ -61,11 +61,10 @@ font-size: xx-small;
     color: white;
 }
 .box3{
-    position: relative;
     background-color: wheat;
     height: 30px;
-    width: 600px;
-    left: 60px;
+    width: 630px;
+    margin-left: 60px;
 }
 .新車{
     text-align: center;
@@ -155,7 +154,6 @@ font-size: xx-small;
     margin-top: 70px;
     margin-left: 100px;
 }
-
 
 
 
