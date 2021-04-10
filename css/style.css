@@ -14,6 +14,7 @@
 }
 
 .p{
+    font-weight: bold;
     color: white;
     font-size: xx-small;
     text-align: right;
@@ -22,62 +23,108 @@
 .smallbox1{
     width: 100%;
     margin: auto;
-    height: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
 }
 
-.画像1{
-    margin-top: 30px;
-    margin-left: 70px;
+.画像11{
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 40px;
     width: auto;
-    height: auto;
-    margin: auto;
+
 }
 
 .aaa{
-    margin-left: 70px;
-    width: auto;
-    margin: auto;
-
+    height: 60px;
+    width: 100%;
+    margin-right: 0px;
 }
 
-
-
 .wrapper{
+    margin-right: 0%;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    text-align: center;
     display: flex;
 font-size: 15px;
 }
 
 
-.店頭{margin-top: 15px;
-    margin-left: 80px;}
-.こんな{margin-top: 15px;
-    margin-left: 30px;}
-.お客{margin-top: 15px;
-    margin-left: 30px;}
-.Q{margin-top: 15px;
-    margin-left: 30px;}
-.店鋪情報{margin-top: 15px;
-    margin-left: 30px;}
-.お問合せ{height: 100%;
+
+
+.店頭{
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7%;}
+a:link{
+        text-decoration: none;
+        color: black;
+    }
+a:hover{color: blue;}    
+
+.こんな{color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7%;}
+.お客{color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7%;}
+.Q{color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7%;}
+.店鋪情報{color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7%;}
+.お問合せ{font-weight: bold;
+        height: 30px;
         background-color: red;
-        color: white;
-        text-align: center;
-        margin-left: 70px;
+        margin-left: 10%;
         margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
         border-radius: 50px;
-        }    
+        text-align: center;
+        
+    
+    } 
+    .お問{
+        color: white;
+        vertical-align: middle;
+        height: 30px;
+    }
+
+
+
+
+        
+
+
+
+
 
 
 .画像2{
     height: auto;
     width: 100%;
 }
+.画像22{
+    width: 100%;
+    height: auto;
+}
 
 
 .box100{
     display: flex;
     width: 100%;
+  
 }
 
 
@@ -91,28 +138,42 @@ font-size: 15px;
 
 .box70{
     width: 70%;
-    height: 200px;
+    height: 220px;
     background-color: navy;
 }
 .面倒な{
+    font-weight: bold;
     text-align: center;
-    margin-top: 5px;
+    padding-top: 15px;
    
     margin: auto;
     color: white;
 }
 .box3{
+    font-weight: bold;
     background-color: wheat;
-    height: 30px;
+    height: 38px;
     width: auto;
+    margin-top: 10px;
     margin-left: 60px;
     margin-right: 60px;
+    text-align: center;
+    padding: auto;
+    padding-top: 1px;
+    color: red;
 }
+.span{font-size: x-large;}
+
+
 .新車{
+
+    padding: auto;
+    vertical-align: middle;
     text-align: center;
     color: red;
 }
 .基本{
+    font-weight: bold;
     text-align: center;
     color: white;
 }
@@ -120,18 +181,25 @@ font-size: 15px;
     display: flex;
 }
 .box1a{
-    margin-left: 75px;
-    height: 55px;
-    width: 75px;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    height: 50px;
+    width: 70px;
     background-color: red;
     border-radius: 10px;
     color: white;
     text-align: center;
 }
+.box1a::before{
+    content: 車両代\A費用;
+}
+
 .box2a{
-    margin-left: 50px;
-    height: 55px;
-    width: 75px;
+    font-size: small;
+    margin-left: 6%;
+    height: 50px;
+    width: 70px;
     background-color: red;
     border-radius: 10px;
     color: white;
@@ -143,24 +211,32 @@ font-size: 15px;
 
 .box30{
     width: 30%;
-    height: 200px;
-    background-color: blue;
+    height: 220px;
+    background-color:navy;
 }
 
 .box3a{
     
-    height: 90%;
+    height: 160px;
     width: 70%;
     background-color: gray;
     margin: auto;
     border-radius: 20px;
+    margin-top: 20px;
 
 }
 .web{
+    font-weight: bold;
+    padding-top: 65px;
+    padding: auto;
     color: white;
     text-align: center;
-
 }
+
+.web2{
+    color: white;
+}
+
 
 .box5{
     position: absolute;
@@ -171,44 +247,69 @@ font-size: 15px;
 }
 
 .当店{
-
-    position: absolute;
-    top: 30px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
+    font-weight: bold;
+    
     font-size: 20px;
     color: red;
     text-align: center;
+    
 }
-.画像3{
+.当店限{
+    margin-bottom: 0px;
+}
+
+.画像3{ 
     height: auto;
-    width: 100px;
-    position: absolute;
-    left: 47%;
-    top: 15%;
+    width: 200px;
 }
+
+
+.box5{
+    width: 100%;
+    height: auto;
+}
+
+
+
 
 .wrapper3{
     display: flex;
+    margin-top: 20px;
 }
 
 .imgcar{
-    position: relative;
-    margin-top: 70px;
-    margin-left: 100px;
+    width: auto;
+    margin-left: 10%;
+    
+}
+
+.月々{text-align: right;
+    margin: auto;
+    font-weight: bold;
+    color: red;
+}
+.span2{font-size: x-large;}
+
+.車種{
+    text-align: left;
+    margin: auto;
+}
+
+.車の説明{
+    text-align: left;
+    margin: auto;
+    font-size: small;
 }
 
 .imgcar2{
-    margin-top: 70px;
-    margin-left: 100px; 
+    width: auto;
+    margin: auto; 
 }
 .imgcar3{
-    position: relative;
-    margin-top: 70px;
-    margin-left: 100px;
+    margin-right: 10%;
+max-width: 100%;
 }
+
 
 
 
