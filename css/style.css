@@ -239,7 +239,8 @@ a:hover{color: blue;}
 
 
 .box5{
-    position: absolute;
+
+   display: block;
     width: 100%;
     margin: auto;
     background-color: wheat;
@@ -310,6 +311,23 @@ a:hover{color: blue;}
 max-width: 100%;
 }
 
+.box6{
+    width: 100%;
+    height: auto;
+}
+
+.name{
+    margin-left: 30%;
+    display: block;
+    margin: auto;
+
+
+
+}
+.textarea2{
+    display: block;
+    margin: auto;
+}
 
 
 
