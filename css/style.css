@@ -460,6 +460,9 @@ margin: auto;
 }
 
 
+::placeholder{
+    padding-left: 3%;
+}
 
 
 
@@ -469,3 +472,9 @@ margin: auto;
 
 
 
+
+.footer{
+    background-color: blue;
+color: white;
+
+}
