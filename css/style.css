@@ -1,109 +1,122 @@
-.bigbox{
-    width: 90%;
-    margin: auto;
-}
 
 
 
 
-.box1{
-    width: 100%;
-    height: 16px;
-    background-color:navy;
-    margin: auto;
-}
-
-.p{
-    font-weight: bold;
-    color: white;
-    font-size: xx-small;
-    text-align: right;
-    margin-right: 80px;
-}
-.smallbox1{
-    width: 100%;
-    margin: auto;
-    height: 60px;
-    text-align: center;
-    font-size: 15px;
-    display: flex;
-}
-
-.画像11{
-    margin-left: 40px;
-    margin-top: 10px;
-    height: 40px;
-    width: auto;
-
-}
-
-.aaa{
-    height: 60px;
-    width: 100%;
-    margin-right: 0px;
-}
-
-.wrapper{
-    margin-right: 0%;
-    margin: auto;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    display: flex;
-font-size: 15px;
-}
-
-
-
-
-.店頭{
-    color: #000;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 7%;}
-a:link{
-        text-decoration: none;
-        color: black;
+    .bigbox{
+        width: 90%;
+        margin: auto;
     }
-a:hover{color: blue;}    
-
-.こんな{color: #000;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 7%;}
-.お客{color: #000;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 7%;}
-.Q{color: #000;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 7%;}
-.店鋪情報{color: #000;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 7%;}
-.お問合せ{font-weight: bold;
-        height: 30px;
-        background-color: red;
-        margin-left: 15%;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        width: 150px;
-        border-radius: 50px;
-        text-align: center;
-        
     
-    } 
-    .お問{
-        color: white;
-        vertical-align: middle;
-        height: 30px;
+    
+    
+    
+    .box1{
+        width: 100%;
+        height: 16px;
+        background-color:navy;
+        margin: auto;
     }
-
-
-
-
+    
+    .p{
+        font-weight: bold;
+        color: white;
+        font-size: xx-small;
+        text-align: right;
+        margin-right: 80px;
+    }
+    .smallbox1{
+        width: 100%;
+        margin: auto;
+        height: 60px;
+        text-align: center;
+        font-size: 15px;
+        display: flex;
+    }
+    
+    .画像11{
+        margin-left: 40px;
+        margin-top: 10px;
+        height: 40px;
+        width: auto;
+    
+    }
+    
+    .aaa{
+        height: 60px;
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    .wrapper{
+        margin-right: 0%;
+        margin: auto;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    }
+    
+    
+    
+    
+    .店頭{
+        color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 7%;}
+    a:link{
+            text-decoration: none;
+            color: black;
+        }
+    a:hover{color: blue;}    
+    
+    .こんな{color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 7%;}
+    .お客{color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 7%;}
+    .Q{color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 7%;}
+    .店鋪情報{color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 7%;}
+    .お問合せ{font-weight: bold;
+            height: 30px;
+            background-color: red;
+            margin-left: 15%;
+            margin-right: 3%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 150px;
+            border-radius: 50px;
+            text-align: center;
+            
+        
+        } 
+        .お問{
+            color: white;
+            vertical-align: middle;
+            height: 30px;
+        }
+    
+    
+    
+    
+            
+    
+    
+    
+    
+    
+    
         
 
 
@@ -462,6 +475,7 @@ margin: auto;
 
 ::placeholder{
     padding-left: 3%;
+    padding-top: 2%;
 }
 
 
