@@ -62,10 +62,11 @@
     
     
     .店頭{
+    
         color: #000;
         font-weight: bold;
         margin-top: 15px;
-        margin-left: 7%;}
+        margin-left: 4%;}
     a:link{
             text-decoration: none;
             color: black;
@@ -75,33 +76,35 @@
     .こんな{color: #000;
         font-weight: bold;
         margin-top: 15px;
-        margin-left: 7%;}
+        margin-left: 4%;}
     .お客{color: #000;
         font-weight: bold;
         margin-top: 15px;
-        margin-left: 7%;}
+        margin-left: 4%;}
     .Q{color: #000;
         font-weight: bold;
         margin-top: 15px;
-        margin-left: 7%;}
+        margin-left: 4%;}
     .店鋪情報{color: #000;
         font-weight: bold;
         margin-top: 15px;
-        margin-left: 7%;}
+        margin-left: 4%;}
     .お問合せ{font-weight: bold;
             height: 30px;
             background-color: red;
-            margin-left: 15%;
+            margin-left: 10%;
             margin-right: 3%;
             margin-top: 15px;
             margin-bottom: 15px;
-            width: 150px;
+            width: 250px;
             border-radius: 50px;
             text-align: center;
             
         
         } 
         .お問{
+            padding-left: 1%;
+            padding-right: 1%;
             color: white;
             vertical-align: middle;
             height: 30px;
